@@ -14,8 +14,8 @@
             if (soloLetras.test(amigo)) {
                 amigos.push(amigo);
                 actualizarLista();
-                nombreInput.value = ''; // Limpia el campo de texto
-                nombreInput.focus(); // Pone el foco de nuevo en el input
+                nombreInput.value = ''; 
+                nombreInput.focus(); 
             } else {
                 // Mensaje de error si se ingresan números o símbolos
                 alert('El nombre solo puede contener letras.');
